@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LHC", "LHC\LHC.csproj", "{461E40E3-E0B2-4C0B-A9AB-ECFC977BC460}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hadron", "Hadron\Hadron.csproj", "{E70FF246-0EDF-4E8C-80AB-8F1D3BF9D65C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +15,10 @@ Global
 		{461E40E3-E0B2-4C0B-A9AB-ECFC977BC460}.Debug|x86.Build.0 = Debug|x86
 		{461E40E3-E0B2-4C0B-A9AB-ECFC977BC460}.Release|x86.ActiveCfg = Release|x86
 		{461E40E3-E0B2-4C0B-A9AB-ECFC977BC460}.Release|x86.Build.0 = Release|x86
+		{E70FF246-0EDF-4E8C-80AB-8F1D3BF9D65C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E70FF246-0EDF-4E8C-80AB-8F1D3BF9D65C}.Debug|x86.Build.0 = Debug|Any CPU
+		{E70FF246-0EDF-4E8C-80AB-8F1D3BF9D65C}.Release|x86.ActiveCfg = Release|Any CPU
+		{E70FF246-0EDF-4E8C-80AB-8F1D3BF9D65C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = LHC\LHC.csproj
