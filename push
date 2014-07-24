@@ -1,0 +1,63 @@
+#!/bin/bash
+drawTitle()
+{
+echo "=========================================="
+echo "=== GIT PUSH AUTOMATED SCRIPT FOR JOSH ==="
+echo "=========================================="
+}
+waitSec()
+{
+echo -ne "Waiting 3 seconds..."\\r
+sleep 1
+echo -ne "Waiting 2 seconds..."\\r
+sleep 1
+echo -ne "Waiting 1 second..."\\r
+sleep 1
+}
+drawBar()
+{
+echo "=========================================="
+}
+clear
+drawTitle
+echo "This script will automatically pull any"
+echo "changes from the repo before pushing your"
+echo "changes."
+echo "It was made by Josh to make life easier."
+echo "=========================================="
+waitSec
+clear
+drawTitle
+echo "Pulling any changes from repo."
+git pull
+drawBar
+waitSec
+clear
+drawTitle
+git add -u
+git add *
+echo -e "Enter a commit message:"
+drawBar
+read commitmessage
+clear
+drawTitle
+git commit -m "$commitmessage"
+drawBar
+echo -e "Comitting  with the message:"
+echo $commitmessage
+drawBar
+waitSec
+clear
+drawTitle
+echo "Pushing to origin master."
+drawBar
+echo "You will need your Github credentials to"
+echo "continue."
+drawBar
+git push origin master
+drawBar
+echo "Your changes have been pushed to the"
+echo "origin master branch. Any errors should"
+echo "be shown above."
+drawBar
+
