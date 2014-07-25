@@ -8,6 +8,7 @@ namespace LHC
 		{
 			if(args.Length == 0)
 			{
+				// ^good one
 				Console.WriteLine ("Are you fucking retarded?");
 			}
 			else
