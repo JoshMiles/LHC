@@ -1,4 +1,5 @@
 using System;
+using Mono.Cecil;
 
 namespace LHC
 {
@@ -16,6 +17,10 @@ namespace LHC
 				Console.WriteLine ("Starting...");
 				
 			}
+
+			// stuff
+			Mono.Cecil.AssemblyDefinition swag;
+			swag.ToString ();
 		}
 	}
 }
