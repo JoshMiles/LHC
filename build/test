@@ -1,0 +1,2 @@
+#! /bin/bash
+mono LHC.exe -i "Hadron.dll" -e "Hadron.Kernel.Main" -o "hadron.iso" -v

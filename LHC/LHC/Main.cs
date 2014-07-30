@@ -9,7 +9,6 @@ namespace LHC
 	{
 		public static void Main (string[] args)
 		{
-			Console.WriteLine ("Large Hadron Compiler\n");
 			if (args.Length == 0) {
 				BanWitches ();
 			}
@@ -48,7 +47,7 @@ namespace LHC
 
 					case "-o":
 					case "--output":
-						if (args.Length < ++i || !File.Exists (args[i]))
+						if (args.Length < ++i)
 						{
 							Console.WriteLine ("Path expected. U mad bro?");
 							BanWitches ();
@@ -67,6 +66,10 @@ namespace LHC
 						break;
 				}
 			}
+
+			// Let's start..
+			Compiler compiler = new Compiler (sp);
+			compiler.Start ();
 		}
 
 		/// <summary>

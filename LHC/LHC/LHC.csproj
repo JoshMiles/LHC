@@ -41,10 +41,18 @@
     <Compile Include="StartParams.cs" />
     <Compile Include="CecilHandler.cs" />
     <Compile Include="HadronIL\HandronIL.cs" />
+    <Compile Include="Compiler.cs" />
+    <Compile Include="Logger.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Folder Include="HadronIL\" />
     <Folder Include="HadronIL\IL\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\libLHC\libLHC.csproj">
+      <Project>{89FAE810-C99B-476B-A7E0-FE531E3997AF}</Project>
+      <Name>libLHC</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>

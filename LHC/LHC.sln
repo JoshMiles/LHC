@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LHC", "LHC\LHC.csproj", "{4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hadron", "Hadron\Hadron.csproj", "{E70FF246-0EDF-4E8C-80AB-8F1D3BF9D65C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libLHC", "..\libLHC\libLHC.csproj", "{89FAE810-C99B-476B-A7E0-FE531E3997AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -15,6 +17,10 @@ Global
 		{461E40E3-E0B2-4C0B-A9AB-ECFC977BC460}.Debug|x86.Build.0 = Debug|x86
 		{461E40E3-E0B2-4C0B-A9AB-ECFC977BC460}.Release|x86.ActiveCfg = Release|x86
 		{461E40E3-E0B2-4C0B-A9AB-ECFC977BC460}.Release|x86.Build.0 = Release|x86
+		{89FAE810-C99B-476B-A7E0-FE531E3997AF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{89FAE810-C99B-476B-A7E0-FE531E3997AF}.Debug|x86.Build.0 = Debug|Any CPU
+		{89FAE810-C99B-476B-A7E0-FE531E3997AF}.Release|x86.ActiveCfg = Release|Any CPU
+		{89FAE810-C99B-476B-A7E0-FE531E3997AF}.Release|x86.Build.0 = Release|Any CPU
 		{E70FF246-0EDF-4E8C-80AB-8F1D3BF9D65C}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{E70FF246-0EDF-4E8C-80AB-8F1D3BF9D65C}.Debug|x86.Build.0 = Debug|Any CPU
 		{E70FF246-0EDF-4E8C-80AB-8F1D3BF9D65C}.Release|x86.ActiveCfg = Release|Any CPU
