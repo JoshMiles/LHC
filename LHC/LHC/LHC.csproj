@@ -39,11 +39,12 @@
     <Compile Include="Main.cs" />
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="CecilHandler.cs" />
-    <Compile Include="HandronIL\HandronIL.cs" />
+    <Compile Include="HadronIL\HandronIL.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <Folder Include="HandronIL\" />
-    <Folder Include="HandronIL\IL\" />
+    <Folder Include="HadronIL\" />
+    <Folder Include="HadronIL\" />
+    <Folder Include="HadronIL\IL\" />
   </ItemGroup>
 </Project>
