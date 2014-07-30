@@ -38,7 +38,17 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="StartParams.cs" />
+=======
+    <Compile Include="CecilHandler.cs" />
+    <Compile Include="HadronIL\HandronIL.cs" />
+>>>>>>> e268814b9bda6d22e658b5afefc5a88e132b74a5
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="HadronIL\" />
+    <Folder Include="HadronIL\" />
+    <Folder Include="HadronIL\IL\" />
+  </ItemGroup>
 </Project>
