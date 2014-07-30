@@ -2,8 +2,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.Workbench ActiveDocument="LHC/Main.cs">
     <Files>
-      <File FileName="LHC/Main.cs" Line="8" Column="4" />
-      <File FileName="Hadron/Kernel.cs" Line="9" Column="5" />
+      <File FileName="LHC/Main.cs" Line="25" Column="3" />
+      <File FileName="Hadron/Kernel.cs" Line="14" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
